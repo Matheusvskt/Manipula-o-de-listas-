@@ -1,0 +1,45 @@
+main{
+    background-color: rgb(216, 225, 242);
+    
+    padding: 2% 2%;
+    box-shadow: 0px 0px 5px rgb(69, 120, 230);
+    border: 0.5px solid rgb(52, 53, 55);
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    margin: 0 auto;
+    
+}
+div{
+   justify-content: center;
+   display: flex;
+ 
+}
+
+li > button{
+    background-color: rgb(139, 174, 240);
+    font-size: smaller;
+    float: right;
+    color: rgb(232, 0, 0);
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+ li{
+    border: 0.5px  rgb(139, 174, 240);
+    background-color: rgb(139, 174, 240);
+    margin: 5px ;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+input:focus{  
+    box-shadow: 0px 0px 5px rgb(69, 120, 230);
+    border: 0.5px solid rgb(0, 119, 255);
+ 
+    outline: none;
+}
